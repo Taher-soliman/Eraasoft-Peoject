@@ -1,214 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/bootstrap.min.css" >
-    <link rel="stylesheet" href="CSS/stayle.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="Assets/CSS/Vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/CSS/Vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/CSS/Main/style.css">
+    <title>Nav Bar</title>
 </head>
+
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="sidbar col-3 bg-dark">
-        <span class="fs-4 text-white "><i class="fas fa-tachometer-alt dashboord__icon"></i>DashBoard</span>
-        <hr class="text-white">
-        <div class="accordion bg-dark" id="accordionExample">
-          <div class="accordion-item accordion__color">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button accordion__color" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <i class="fab fa-product-hunt icons"></i> Products
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show accordion__color" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <div class="collapse show" id="home-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><i class="fas fa-plus icons"></i><a href="#" class="link-dark rounded link__color">Add Product</a></li>
-                    <li><i class="fas fa-edit icons"></i><a href="#" class="link-dark rounded link__color">Update Product</a></li>
-                    <li><i class="fas fa-minus-circle icons"></i><a href="#" class="link-dark rounded link__color">Remove Product</a></li>
-                  </ul>
-                </div>
-                </div>
+    <!-- Start Nav Bar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Company Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"> Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Our Products Our Offers  Features  About Us  Contact us</a></li>
+                            <li><a class="dropdown-item" href="#">Our Offers</a></li>
+                            <li><a class="dropdown-item" href="#">Features</a></li>
+                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Contact us</a></li>
+                            <li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Dashboard</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
             </div>
-          </div>
-          <div class="accordion-item accordion__color">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed accordion__color" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <i class="fas fa-user-alt icons"></i>Users
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" accordion__color aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <div class="collapse show" id="home-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><i class="fas fa-user-plus icons"></i><a href="#" class="link-dark rounded link__color">Add User</a></li>
-                    <li><i class="fas fa-user-edit icons"></i><a href="#" class="link-dark rounded link__color">Update User</a></li>
-                    <li><i class="fas fa-user-minus icons"></i><a href="#" class="link-dark rounded link__color">Remove User</a></li>
-                  </ul>
-                </div>  
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item accordion__color">
-            <h2 class="accordion-header accordion__color" id="headingThree">
-              <button class="accordion-button collapsed accordion__color" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <i class="fas fa-sliders-h icons"></i> Setting
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse accordion__color" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <div class="collapse show" id="home-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><i class="fas fa-image icons"></i><a href="#" class="link-dark rounded link__color">Change Photo</a></li>
-                    <li><i class="fas fa-key icons"></i><a href="#" class="link-dark rounded link__color">Change Password</a></li>
-                    <li><i class="fas fa-envelope icons"></i><a href="#" class="link-dark rounded link__color">Change Email</a></li>
-                  </ul>
-                </div>  
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="col-9">
-      <div class="table-responsive">
-        <table class="table table-striped table-sm">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Header</th>
-              <th scope="col">Header</th>
-              <th scope="col">Header</th>
-              <th scope="col">Header</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1,001</td>
-              <td>random</td>
-              <td>data</td>
-              <td>placeholder</td>
-              <td>text</td>
-            </tr>
-            <tr>
-              <td>1,002</td>
-              <td>placeholder</td>
-              <td>irrelevant</td>
-              <td>visual</td>
-              <td>layout</td>
-            </tr>
-            <tr>
-              <td>1,003</td>
-              <td>data</td>
-              <td>rich</td>
-              <td>dashboard</td>
-              <td>tabular</td>
-            </tr>
-            <tr>
-              <td>1,003</td>
-              <td>information</td>
-              <td>placeholder</td>
-              <td>illustrative</td>
-              <td>data</td>
-            </tr>
-            <tr>
-              <td>1,004</td>
-              <td>text</td>
-              <td>random</td>
-              <td>layout</td>
-              <td>dashboard</td>
-            </tr>
-            <tr>
-              <td>1,005</td>
-              <td>dashboard</td>
-              <td>irrelevant</td>
-              <td>text</td>
-              <td>placeholder</td>
-            </tr>
-            <tr>
-              <td>1,006</td>
-              <td>dashboard</td>
-              <td>illustrative</td>
-              <td>rich</td>
-              <td>data</td>
-            </tr>
-            <tr>
-              <td>1,007</td>
-              <td>placeholder</td>
-              <td>tabular</td>
-              <td>information</td>
-              <td>irrelevant</td>
-            </tr>
-            <tr>
-              <td>1,008</td>
-              <td>random</td>
-              <td>data</td>
-              <td>placeholder</td>
-              <td>text</td>
-            </tr>
-            <tr>
-              <td>1,009</td>
-              <td>placeholder</td>
-              <td>irrelevant</td>
-              <td>visual</td>
-              <td>layout</td>
-            </tr>
-            <tr>
-              <td>1,010</td>
-              <td>data</td>
-              <td>rich</td>
-              <td>dashboard</td>
-              <td>tabular</td>
-            </tr>
-            <tr>
-              <td>1,011</td>
-              <td>information</td>
-              <td>placeholder</td>
-              <td>illustrative</td>
-              <td>data</td>
-            </tr>
-            <tr>
-              <td>1,012</td>
-              <td>text</td>
-              <td>placeholder</td>
-              <td>layout</td>
-              <td>dashboard</td>
-            </tr>
-            <tr>
-              <td>1,013</td>
-              <td>dashboard</td>
-              <td>irrelevant</td>
-              <td>text</td>
-              <td>visual</td>
-            </tr>
-            <tr>
-              <td>1,014</td>
-              <td>dashboard</td>
-              <td>illustrative</td>
-              <td>rich</td>
-              <td>data</td>
-            </tr>
-            <tr>
-              <td>1,015</td>
-              <td>random</td>
-              <td>tabular</td>
-              <td>information</td>
-              <td>text</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-  </div>
-  <script src="https://kit.fontawesome.com/aa7db7b8af.js" crossorigin="anonymous"></script>
-    <script src="JS/bootstrap.bundle.min.js"></script>
-    <script src="JS/script.js"></script>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Our Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Pages</a>
+                        <ul class="dropdown-list bg-light">
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Our Products</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Our Offers</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Features</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">About Us</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Contact us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Dashboard</a>
+                        <ul class="dropdown-list bg-light">
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Products</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Users</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Sittings</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Pricing List</a>
+                        <ul class="dropdown-list bg-light">
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Basic</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Master</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Professional</a></li>
+
+                        </ul>
+                    </li>
+
+
+                </ul>
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-search icon"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <form class="">
+                                <input class="search-input" type="search" placeholder="Search">
+                            </form>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="index01.html" class="btn">Log In</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="index01.html" class="btn signup-btn">Sign Up</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Nav Bar -->
+    <script src="Assets/Js/Vendors/bootstrap.bundle.min.js"></script>
+    <script src="Assets/Js/Vendors/all.min.js"></script>
 </body>
+
 </html>
-
-
-<!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right text-white" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-</svg> -->
