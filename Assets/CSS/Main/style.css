@@ -155,6 +155,9 @@ body{
 body{
   margin: 0;
   padding: 0;
+
+}
+.login-container{
   background: linear-gradient(120deg,#2980b9, #8e44ad);
   height: 100vh;
   overflow: hidden;
