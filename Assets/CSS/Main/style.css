@@ -1,4 +1,17 @@
+@font-face {
+    font-family: "urbanist";
+    src: url("../../fonts/Urbanist/Urbanist-Regular.eot");
+    /* IE9 Compat Modes */
+    src: url("../../fonts/Urbanist/Urbanist-Regular.eot") format("embedded-opentype"),
+        url("../../fonts/Urbanist/Urbanist-Regular.woff") format("woff"),
+        url("../../fonts/Urbanist/Urbanist-Regular.ttf") format("truetype"),
+        url("../../fonts/Urbanist/Urbanist-Regular.woff2") format("svg");
+    /* Legacy iOS */
+}
 /* Start Variables */
+body{
+    background-color: #F7F9F9;
+}
 :root{
     --main-color:#ec1c23;
     --second-color:#0ca7aa;
@@ -129,6 +142,7 @@
 
 }
 /* End Dashboard */
+<<<<<<< HEAD
 
 /* Taher Log in Page */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
@@ -245,3 +259,29 @@ input[type="submit"]:hover{
   text-decoration: underline;
 }
 /* End Log In Page */
+=======
+/* start sections */
+.card-sections{
+    border-radius: 24px !important;
+}
+.title-of-sections p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "urbanist";
+    font-weight: bold;
+}
+.card .card-body .card__name-card{
+    text-transform: capitalize;
+}
+.card-shadow:hover{
+    box-shadow: 0 10px 100px rgba(123,168,184,.23)!important;
+}
+.card-mr-buttom{
+    margin-bottom: 30px;
+}
+.card .card__card-img-border{
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+>>>>>>> main
