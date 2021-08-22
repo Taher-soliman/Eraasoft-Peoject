@@ -1,8 +1,8 @@
 
-
-
-
 /* Said Bar */
+a{
+  text-decoration: none;
+}
 .dashboord__heder
   {
     font-size: 30px!important;
@@ -41,7 +41,25 @@
     font-size: 25px;
 
 }
+
 /* End Said Bar */
+
+/* all_products */
+.buton
+{
+  height: 30px;
+  width: 50px;
+  text-align: center;
+  padding: 0;
+}
+/* end all_products*/
+
+/* edit_product_form */
+.edit__product__form
+{
+  margin-top: 30px;
+}
+/* end edit_product_form */
 
 /* start media */
 @media  (max-width: 1080px) {
