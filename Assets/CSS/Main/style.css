@@ -1,4 +1,4 @@
-@font-face {
+font-face {
     font-family: "urbanist";
     src: url("../../fonts/Urbanist/Urbanist-Regular.eot");
     /* IE9 Compat Modes */
@@ -21,6 +21,7 @@ body{
 /* End Variables */
 
 
+<<<<<<< HEAD
 /* Start Nav Bar */
 .navbar-nav .dropdown{
     position: relative;
@@ -106,6 +107,44 @@ body{
 }
 
 /* End Nav Bar */
+=======
+/* Mohamed Marei Dash Board */
+.accordion__color
+{
+    background-color:#212529;
+    color:white;
+    border: none;
+}
+.link__color
+{
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.link__color:hover
+{
+    color: #212529;
+    background-color:white;
+}
+.sidbar
+{
+    height: 700px;
+}
+.icons
+{
+    margin: 0 15px 0 0;
+}
+.dashboord__icon
+{
+    margin: 0 15px 0 0;
+    font-size: 25px;
+
+}
+/* End Dashboard */
+<<<<<<< HEAD
+>>>>>>> main
 
 /* Taher Log in Page */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
@@ -248,6 +287,10 @@ input[type="submit"]:hover{
 }
 .card .card__card-img-border{
     border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
+    border-top-ri
+    ght-radius: 24px;
+}
+.card-shadow{
+  height: 100%;
 }
 >>>>>>> main
