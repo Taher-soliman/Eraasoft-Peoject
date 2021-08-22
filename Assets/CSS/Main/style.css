@@ -1,4 +1,4 @@
-@font-face {
+font-face {
     font-family: "urbanist";
     src: url("../../fonts/Urbanist/Urbanist-Regular.eot");
     /* IE9 Compat Modes */
@@ -20,92 +20,6 @@ body{
 }
 /* End Variables */
 
-
-/* Start Nav Bar */
-.navbar-nav .dropdown{
-    position: relative;
-}
-.navbar-nav .search-icon{
-    position: relative;
-}
-.navbar-nav .nav-item .btn{
-    background-color: var(--second-color);
-    border: 1px solid var(--second-color);
-    margin: 0 10px;
-    border-radius: 40px;
-    color: white;
-    padding: 5px 20px;
-    
-}
-.navbar-nav .nav-item .signup-btn{
-    color: var(--thrd-color);
-    background-color: white;
-    border: 1px solid var(--thrd-color);
-}
-.navbar-nav .nav-item .btn:hover ,
-.navbar-nav .nav-item .signup-btn:hover{
-    background-color: #09787a;
-    border-color: #086f71;
-    color: white;
-}
-.nav-item .dropdown-list{
-    position: absolute;
-    transform: scale(0);
-    transition: all var(--transition) ease-in-out;
-    padding: 10px;
-    min-width: 200px;
-}
-.nav-item .dropdown-list li a{
-    text-decoration: none;
-    color: var(--thrd-color);
-    transition: var(--transition);
-    padding: 5px 0;
-    display: inline-block;
-}
-.nav-item .dropdown-list li a:hover{
-    margin-left: 10px;
-    color: var(--second-color);
-}
-.nav-item .dropdown-list li:hover{
-    background-color: unset;
-}
-.navbar-nav .dropdown:hover .dropdown-list
-{
-    transform: scale(1);
-}
-.navbar .d-flex{
-    align-items: center !important;
-}
-.navbar-nav .nav-item .icon:hover{
-    cursor: pointer;
-    color: var(--main-color);
-}
-.navbar-nav .nav-item form .search-input{
-    position: absolute;
-    top: -45px;
-    transform: translate(calc(-100% - 10px));
-    width: 50%;
-    border-radius: 40px;
-    border: 1px solid var(--thrd-color);
-    padding-left: 15px;
-    outline: none;
-}
-.dropdown-toggle::after{
-    display: none;
-}
-.dropdown .dropdown-toggle{
-    position: relative;
-}
-.dropdown .dropdown-toggle .icon{
-    
-    align-self: center !important;
-}
-.dropdown-menu{
-    border: none;
-    background-color: transparent;
-}
-
-/* End Nav Bar */
 
 /* Mohamed Marei Dash Board */
 .accordion__color
@@ -285,6 +199,10 @@ input[type="submit"]:hover{
 }
 .card .card__card-img-border{
     border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
+    border-top-ri
+    ght-radius: 24px;
+}
+.card-shadow{
+  height: 100%;
 }
 >>>>>>> main
