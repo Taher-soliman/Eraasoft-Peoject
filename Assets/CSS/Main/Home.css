@@ -18,7 +18,7 @@
 }
 .carousel-inner .carousel-item{
     width: 100%;
-    height: 100% !important;
+    height: 100% ;
 
 }
 .carousel-inner .slider-01{
@@ -64,8 +64,63 @@
     opacity: 1;
 }
 .carousel-caption .slider-btn .slider-btn__icon{
-    margin-top: px;
     margin-left: 10px;
     align-self: center !important;
 }
+@media (max-width:991px){
+    .carousel-item .carousel-caption{
+        text-align: left !important;
+    }
+    .carousel-item .carousel-caption h4{
+        font-size: 30px !important;
+    }
+    .carousel-item .carousel-caption h2{
+        font-size: 40px !important;
+        line-height: 1.5 !important;
+    }
+}
+@media(max-width:676px){
+    .carousel-inner{
+        min-height: 150vh;
+    }
+    .carousel-inner .carousel-item .slider-img{
+        width: 100%;
+        transform: scaleX(.7);
+        height: 50%;
+    }
+    .carousel-item .carousel-caption{
+        text-align: center !important;
+        width: 90%;
+        height: 50%;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50% , 10%);
+    }
+    .carousel-item .carousel-caption h4{
+        font-size: 25px;
+        font-weight: normal;
+    }
+    .carousel-item .carousel-caption h2{
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 2;
+    }
+    .carousel-item .carousel-caption p{
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .carousel-item .carousel-caption .slider-btn{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        margin-top: 20px;
+        background-color: red;
+        padding: 12px 25px;
+        border-radius: 8px;
+        font-size: 25px;
+        opacity: .6;
+        transition: .3s;
+    }
+}
+
 /* End Slider */
