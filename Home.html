@@ -6,17 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Assets/CSS/Vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/CSS/Vendors/animate.min.css">
     <link rel="stylesheet" href="Assets/CSS/Vendors/all.min.css">
     <link rel="stylesheet" href="Assets/CSS/Main/Home.css">
     <title>Home Page</title>
 </head>
 
 <body>
+    <!-- Start Slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 
+        <div class="carousel-inner">
+            <div class="carousel-item slider-01 active">
+                <div class="slider-img ms-auto"><img src="Assets/images/Slider01.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <h4 class="wow animate__lightSpeedInRight " data-wow-duration="1s" data-wow-delay=".6s">Has just
+                        arrived!
+                    </h4>
+                    <h2 class="wow animate__lightSpeedInRight " data-wow-duration="1.2s" data-wow-delay=".6s">Huge
+                        Summer
+                        Collection</h2>
+                    <p class="wow animate__lightSpeedInRight " data-wow-duration="1.3s" data-wow-delay=".6s">Swimwear,
+                        Tops,
+                        Shorts, Sunglasses & much more...</p>
+                    <a href="#" class="slider-btn wow animate__bounceInUp" data-wow-duration="1s"
+                        data-wow-delay=".6s">Shop Now <i class="fas fa-arrow-right slider-btn__icon"></i></a>
+                </div>
+            </div>
+            <div class="carousel-item slider-02">
+                <div class="slider-img ms-auto"><img src="Assets/images/Slider02.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <h4 class="wow animate__lightSpeedInRight " data-wow-duration="1s" data-wow-delay=".6s">Hurry up!
+                        Limited time offer.</h4>
+                    <h2 class="wow animate__lightSpeedInRight " data-wow-duration="1.2s" data-wow-delay=".6s">Women
+                        Sportswear Sale</h2>
+                    <p class="wow animate__lightSpeedInRight " data-wow-duration="1.3s" data-wow-delay=".6s">Sneakers,
+                        Keds, Sweatshirts, Hoodies & much more...</p>
+                    <a href="#" class="slider-btn wow animate__bounceInUp" data-wow-duration="1s"
+                        data-wow-delay=".6s">Shop Now <i class="fas fa-arrow-right slider-btn__icon"></i></a>
+                </div>
+            </div>
+            <div class="carousel-item slider-03">
+                <div class="slider-img ms-auto"><img src="Assets/images/Slider03.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <h4 class="wow animate__lightSpeedInRight " data-wow-duration="1s" data-wow-delay=".6s">Complete
+                        your look with</h4>
+                    <h2 class="wow animate__lightSpeedInRight " data-wow-duration="1.2s" data-wow-delay=".6s">New Men's
+                        Accessories</h2>
+                    <p class="wow animate__lightSpeedInRight " data-wow-duration="1.3s" data-wow-delay=".6s">Hats &
+                        Caps,
+                        Sunglasses, Bags & much more...</p>
+                    <a href="#" class="slider-btn wow animate__bounceInUp" data-wow-duration="1s"
+                        data-wow-delay=".6s">Shop Now <i class="fas fa-arrow-right slider-btn__icon"></i></a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- End Slider -->
 
 
 
     <script src="Assets/Js/Vendors/bootstrap.bundle.min.js"></script>
+    <script src="Assets/Js/Vendors/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="Assets/Js/Vendors/all.min.js"></script>
 </body>
 
