@@ -4,12 +4,17 @@ body{margin:0;}
                 align-items: center;
                 justify-content: center;
                 height: auto;
-                padding: 50px;}
+                padding: 50px;
+                background: radial-gradient(#8e44ad,#2980b9);
+              }
+              
 
 .contact-us-countainer{
                        flex-direction: column;
                        width: 60%;
-                       box-shadow: 0px 0px 10px rgba(0,0,0,0.5)}
+                       box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+                       background-color: #fff;
+                      }
 
 .contact-us-text{text-align: center;
                  color: rgb(29, 29, 139);}
