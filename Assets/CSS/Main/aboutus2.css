@@ -1,0 +1,30 @@
+body{margin: 0;}
+
+.about-us-card{
+               background-color: rgb(224, 220, 220);
+                height: auto;}
+
+.about-us-container{display: flex;}
+
+.about-us-container div{
+                        padding: 18px;
+                        margin: 10px 20px 0px 10px;
+                        width: 50%;}
+
+.about-us-content h2{font-size: 40px;}
+
+
+.about-us-content p{
+                     line-height: 1.5;
+                     margin: 15px;}
+
+.about-us-content-before::before{content: "We";
+                                 font-size: 25px;}
+
+.about-us-image{transform: scale(0.8,0.8);}
+
+.about-us-image img{width: 100%;
+                    opacity: 0.8;}
+.about-us-link{
+             margin: 0px 0px 15px 15px;
+            display: inline-block;}
