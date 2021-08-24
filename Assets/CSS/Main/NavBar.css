@@ -85,7 +85,9 @@ body{
 .nav-item .dropdown-list li:hover{
     background-color: unset;
 }
-
+.navbar-expand-lg .navbar-nav{
+  align-items: center !important;
+}
 .navbar .d-flex{
     align-items: center !important;
 }
