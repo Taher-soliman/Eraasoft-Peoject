@@ -39,6 +39,7 @@ body{
 }
 .navbar-nav .nav-item .signup-btn{
     color: var(--thrd-color);
+    margin: 0;
     background-color: white;
     border: 1px solid var(--thrd-color);
 }
@@ -55,6 +56,7 @@ body{
     overflow: hidden;
     transition: all var(--transition) ease-in-out;
     padding: 10px;
+    z-index: 999;
     min-width: 200px;
     transition: .6s;
 }
@@ -69,7 +71,6 @@ body{
     position: relative;
     background-color: white;
   }
-
 }
 .nav-item .dropdown-list li a{
     text-decoration: none;
@@ -195,5 +196,9 @@ body{
     display: flex;
     flex-direction: row;
   }
+  .navbar-expand-lg .navbar-nav{
+    align-items: flex-start !important;
+  }
+
 }
 /* End Nav Bar */
