@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="Assets/CSS/Main/StyleMai.css">
     <link rel="stylesheet" href="Assets/CSS/Main/NavBar.css">
     <link rel="stylesheet" href="Assets/CSS/Main/Footer.css">
-    <title>Home Page</title>
+    <link rel="stylesheet" href="Assets/CSS/Main/Mohamed-Marei.css">
+    <title>Categore</title>
 </head>
 
 <body>
@@ -102,128 +103,55 @@
     </nav>
     <!-- End Nav Bar -->
 
-    <!-- Start Slider -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-
-        <div class="carousel-inner">
-            <div class="carousel-item slider-01 active">
-                <div class="slider-img ms-auto"><img src="Assets/images/Slider01.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-caption d-md-block  text-start">
-                    <h4 class="wow animate__fadeInRightBig " data-wow-duration="1s" data-wow-delay=".6s">Has just
-                        arrived!
-                    </h4>
-                    <h2 class="wow animate__fadeInRightBig " data-wow-duration="1.2s" data-wow-delay=".6s">Huge
-                        Summer
-                        Collection</h2>
-                    <p class="wow animate__fadeInRightBig " data-wow-duration="1.3s" data-wow-delay=".6s">Swimwear,
-                        Tops,
-                        Shorts, Sunglasses & much more...</p>
-                    <a href="#" class="slider-btn wow animate__bounceInUp" data-wow-duration="1s"
-                        data-wow-delay=".6s">Shop Now <i class="fas fa-arrow-right slider-btn__icon"></i></a>
-                </div>
-            </div>
-            <div class="carousel-item slider-02">
-                <div class="slider-img ms-auto"><img src="Assets/images/Slider02.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-caption d-md-block  text-start">
-                    <h4 class="wow animate__fadeInUp " data-wow-duration="1s" data-wow-delay=".6s">Hurry up!
-                        Limited time offer.</h4>
-                    <h2 class="wow animate__fadeInUp " data-wow-duration="1s" data-wow-delay=".6s">Women
-                        Sportswear Sale</h2>
-                    <p class="wow animate__fadeInUp " data-wow-duration="1s" data-wow-delay=".6s">Sneakers,
-                        Keds, Sweatshirts, Hoodies & much more...</p>
-                    <a href="#" class="slider-btn wow animate__bounceInUp" data-wow-duration="1s"
-                        data-wow-delay=".6s">Shop Now <i class="fas fa-arrow-right slider-btn__icon"></i></a>
-                </div>
-            </div>
-            <div class="carousel-item slider-03">
-                <div class="slider-img ms-auto"><img src="Assets/images/Slider03.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-caption d-md-block  text-start">
-                    <h4 class="wow animate__fadeInRightBig " data-wow-duration="1s" data-wow-delay=".6s">Complete
-                        your look with</h4>
-                    <h2 class="wow animate__fadeInRightBig " data-wow-duration="1.2s" data-wow-delay=".6s">New Men's
-                        Accessories</h2>
-                    <p class="wow animate__fadeInRightBig " data-wow-duration="1.3s" data-wow-delay=".6s">Hats &
-                        Caps,
-                        Sunglasses, Bags & much more...</p>
-                    <a href="#" class="slider-btn wow animate__bounceInUp" data-wow-duration="1s"
-                        data-wow-delay=".6s">Shop Now <i class="fas fa-arrow-right slider-btn__icon"></i></a>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <!-- End Slider -->
-
     <!-- Start Trending Products -->
     <section class="trending-products " id="our-product">
         <div class="container">
             <div class="row text-center">
-                <h2>Trending Products</h2>
-                <div class="col-12 col-sm-6  col-md-4 col-lg-3">
-                    <div class="card-me">
-                        <img src="Assets/images/watches/1.jpg" alt="">
-                        <div class="info-me">
-                            <h1>Watch</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
-                                minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
-                                exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
-                            <a href="#" class="btn btn-outline-success">See More</a>
-                        </div>
+                <div class="row">
+                    <div class=" col-12 col-sm-6  col-md-4 col-lg-3" > 
+                        <label>Taype</label>
+                        <select class=" form-select" aria-label="Default select example">
+                            <option selected>Select</option>
+                            <option value="1">Phons</option>
+                            <option value="2">Smart TV</option>
+                            <option value="3">Tablets</option>
+                            <option value="3">Laptops</option>
+                       </select>
+                    </div>
+                    <div class=" col-12 col-sm-6  col-md-4 col-lg-3" > 
+                        <label>Company</label>
+                        <select class=" form-select" aria-label="Default select example">
+                            <option selected>Select</option>
+                            <option value="1">Apple</option>
+                            <option value="2">Samsung</option>
+                            <option value="3">Sony</option>
+                       </select>
+                    </div>
+                    <div class=" col-12 col-sm-6  col-md-4 col-lg-3" > 
+                        <label>Price: From</label>
+                        <select class=" form-select" aria-label="Default select example">
+                            <option selected>Select</option>
+                            <option value="1">1000 EG</option>
+                            <option value="2">2000 EG</option>
+                            <option value="3">3000 EG</option>
+                       </select>
+                    </div>
+                    <div class=" col-12 col-sm-6  col-md-4 col-lg-3" > 
+                        <label>To</label>
+                        <select class=" form-select" aria-label="Default select example">
+                            <option selected>Select</option>
+                            <option value="1">5000 EG</option>
+                            <option value="2">10000 EG</option>
+                            <option value="3">15000 EG</option>
+                       </select>
                     </div>
                 </div>
+                <h2>Dvices</h2>
                 <div class="col-12 col-sm-6  col-md-4 col-lg-3">
                     <div class="card-me">
-                        <img src="Assets/images/watches/2.jpg" alt="">
+                        <img src="Assets/images/Category/phons.jpg" alt="">
                         <div class="info-me">
-                            <h1>Watch</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
-                                minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
-                                exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
-                            <a href="#" class="btn btn-outline-success">See More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6  col-md-4 col-lg-3">
-                    <div class="card-me">
-                        <img src="Assets/images/watches/3.jpg" alt="">
-                        <div class="info-me">
-                            <h1>Watch</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
-                                minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
-                                exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
-                            <a href="#" class="btn btn-outline-success">See More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6  col-md-4 col-lg-3">
-                    <div class="card-me">
-                        <img src="Assets/images/watches/4.jpg" alt="">
-                        <div class="info-me">
-                            <h1>Watch</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
-                                minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
-                                exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
-                            <a href="#" class="btn btn-outline-success">See More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6  col-md-4 col-lg-3">
-                    <div class="card-me">
-                        <img src="Assets/images/makeup1.jpeg" alt="">
-                        <div class="info-me">
-                            <h1>makeup</h1>
+                            <h1>Mobils</h1>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
                                 minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
                                 exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
@@ -233,21 +161,9 @@
                 </div>
                 <div class="col-12 col-sm-6  col-md-4 col-lg-3">
                     <div class="card-me">
-                        <img src="Assets/images/makeup1.jpeg" alt="">
+                        <img src="Assets/images/Category/laptop.jpg" alt="">
                         <div class="info-me">
-                            <h1>makeup</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
-                                minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
-                                exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
-                            <a href="#" class="btn btn-outline-success">See More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12  col-sm-6 col-md-4 col-lg-3">
-                    <div class="card-me">
-                        <img src="Assets/images/makeup1.jpeg" alt="">
-                        <div class="info-me">
-                            <h1>makeup</h1>
+                            <h1>Laptops</h1>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
                                 minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
                                 exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
@@ -257,9 +173,9 @@
                 </div>
                 <div class="col-12 col-sm-6  col-md-4 col-lg-3">
                     <div class="card-me">
-                        <img src="Assets/images/makeup1.jpeg" alt="">
+                        <img src="Assets/images/Category/tv.png" alt="">
                         <div class="info-me">
-                            <h1>makeup</h1>
+                            <h1>Smart TV</h1>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
                                 minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
                                 exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
@@ -267,8 +183,18 @@
                         </div>
                     </div>
                 </div>
-                <div><a class="more-products-btn" href="#">More Products <i
-                            class="fas fa-arrow-right slider-btn__icon"></i></a></div>
+                <div class="col-12 col-sm-6  col-md-4 col-lg-3">
+                    <div class="card-me">
+                        <img src="Assets/images/Category/tablet.jpg" alt="">
+                        <div class="info-me">
+                            <h1>Tablets</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
+                                minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
+                                exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
+                            <a href="#" class="btn btn-outline-success">See More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -348,8 +274,6 @@
         </div>
     </div>
     <!-- End Footer -->
-
-
     <script src="Assets/Js/Vendors/bootstrap.bundle.min.js"></script>
     <script src="Assets/Js/Vendors/wow.min.js"></script>
     <script>
