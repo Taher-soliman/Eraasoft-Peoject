@@ -20,12 +20,12 @@
         <div class="accordion bg-dark" id="accordionExample">
           <div class="accordion-item accordion__color">
             <h2 class="accordion-header accordion__color" id="headingFour">
-              <button class="accordion-button collapsed accordion__color" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <button class="accordion-button  accordion__color" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                 <i class="fas fa-shopping-cart icons"></i> Category
               </button>
             </h2>
-            <div id="collapseFour" class="accordion-collapse collapse  accordion__color" aria-labelledby="headingFour"
+            <div id="collapseFour" class="accordion-collapse collapse show accordion__color" aria-labelledby="headingFour"
               data-bs-parent="#accordionExample">
               <div class="accordion-body accordion__content">
                 <div class="collapse show" id="home-collapse">
@@ -39,12 +39,12 @@
           </div>
           <div class="accordion-item accordion__color">
             <h2 class="accordion-header accordion__color" id="headingOne">
-              <button class="accordion-button  accordion__color" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button class="accordion-button collapsed accordion__color" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                 <i class="fab fa-product-hunt icons"></i> Products
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show accordion__color" aria-labelledby="headingOne"
+            <div id="collapseOne" class="accordion-collapse collapse  accordion__color" aria-labelledby="headingOne"
               data-bs-parent="#accordionExample">
               <div class="accordion-body accordion__content">
                 <div class="collapse show" id="home-collapse">
@@ -109,26 +109,7 @@
               <tbody>
                 <tr>
                   <td><label  class="">Name</label>
-                  <td><input type="text"class="form-control" value=""></td>
-                </tr>
-                <tr>
-                  <td><label  class="">Category</label></td>
-                  <td>
-                    <select class="form-select" aria-label="Default select example">
-                      <option >Category 1</option>
-                      <option >Category 2</option>
-                      <option >Category 3</option>
-                      <option >Category 4</option>
-                    </select>
-                  </td>
-                </tr>
-                <tr>
-                  <td><label  class="">Price</label>
-                  <td><input type="text"class="form-control" value="" ></td>
-                </tr>
-                <tr>
-                  <td><label  class="">Note</label>
-                  <td><input type="text"class="form-control" value=""></td>
+                  <td><input type="text"class="form-control" value="cares"></td>
                 </tr>
                 <tr>
                   <td><label  class="">Image</label>
@@ -139,7 +120,7 @@
             </table>
           </div>
           <div class="col-auto">
-            <button type="submit" class="btn btn-primary mb-3">Add</button>
+            <button type="submit" class="btn btn-primary mb-3">Update</button>
           </div>
         </form>
       </div>

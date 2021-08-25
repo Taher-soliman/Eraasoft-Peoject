@@ -1,6 +1,16 @@
+
+
+
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* Start Variables */
+    :root{
+        --section-margin: 80px 0;
+    }
+/* End Variables */
+
 /* Start Slider */
 .carousel-inner{
     height: 100vh;
@@ -128,9 +138,102 @@ body{
 
 /* End Slider */
 
+/* Start About Us */
+    .about-us{
+        margin: var(--section-margin);
+    }
+    .about-us .about-us__img{
+        overflow: hidden;
+        position: relative;
+    }
+    .about-us .about-us__img img{
+        width: 100%;
+    }
+    .about-us .about-us__content p:first-child{
+        font-family: 'Kalam', cursive;
+        font-size: 25px;
+        font-weight: bold;
+        color: #7fd02c;
+    }
+    .about-us .about-us__content{
+        width: 90%;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+    .about-us .about-us__content h2{
+        font-size: 55px;
+        margin-bottom: 30px;
+    }
+    .about-us .about-us__content .brief{
+        font-size: 16px;
+    }
+    .about-us .about-us__content .founder{
+        font-size: 25px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    .about-us .about-us__content .founder span:first-child{
+        color: #7fd02c;
+    }
+    .about-us .about-us__content .founder span:last-child{
+        font-family: 'Kalam', cursive;
+    }
+    .about-us .about-us__content .seo{
+        align-items: center !important;
+    }
+    .about-us .about-us__content .seo-img{
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    .about-us .about-us__content .seo-img img{
+        width: 100%;
+    }
+/* End About Us */
+
+/* Start Features  */
+    .features{
+        background-color: #2b3445;
+        color: white;
+        margin: var(--section-margin);
+        padding: var(--section-margin);
+    }
+    .features .feature-item{
+        display: flex;
+        padding: 0 !important;
+    }
+    @media(max-width:676px){
+        .features .feature-item{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    .features  .header{
+        margin-bottom: 50px;
+    }
+    .features .feature-item >div>.icon{
+        font-size: 50px;
+        color: #fe696a;
+        margin-right: 15px;
+        padding-left: 10px;
+    }
+    .features .feature-item .text p:first-child{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .features .feature-item .text p:last-child{
+        font-size: 16px;
+        opacity: .5;
+    }
+/* End Features  */
+
 /* Start Trending Products */
     .trending-products{
         margin: 80px 0;
+    }
+    .trending-products .row .card{
+        width: 100% !important;
     }
     .trending-products h2{
         margin-bottom: 40px;
@@ -162,12 +265,15 @@ body{
         align-items: center;
         justify-content: center;
     }
+    .offer-content {
+        margin-top: 40px;
+    }
     .offer-content h2{
         font-size: 60px;
         margin-bottom: 20px;
     }
     .offer-content p{
-        font-size: 18px;
+        font-size: 16px;
         color: #555;
     }
     .offer-content .buy-now-btn{
@@ -187,3 +293,20 @@ body{
         width: 100%;
     }
 /*  End Offer Section */
+
+/* To UP */
+.to-up{
+    padding:15px 20px;
+    background-color: #2b344540;
+    position: fixed;
+    z-index: 999;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+.to-up .icon{
+    color: white;
+    line-height: 50px;
+}
+/* To UP */
