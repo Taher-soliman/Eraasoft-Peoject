@@ -2,4 +2,5 @@ body{margin: 0;}
 
 .privacy-policy{margin-top: 40px;}
 
-.privacy-policy-checkbox{margin-top: 20px;}
+.privacy-policy-checkbox{margin-top: 20px;
+                         margin-bottom: 40px;}
