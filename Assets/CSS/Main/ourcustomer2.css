@@ -1,0 +1,31 @@
+body{margin: 0;}
+
+.our-customer-text{text-align: center;
+                  margin-top: 20px;
+                  margin-bottom: 40px;}
+
+.our-customer-card{margin-top: 20px;}
+
+.our-customer-image-style{margin: auto;
+                        padding: 15px;}
+
+.cutomer-style{
+               width:150px;
+               height: 150px; 
+               overflow: hidden;
+               border-radius: 50%;}
+               
+
+.customer-image{
+                 opacity: 0.8;
+                 width: 100%;
+                height: 100%;
+               transform: scaleX(1.2);}
+
+.customer-image:hover{opacity: 1;}
+
+.customer-full-name{text-align: center;
+                    font-size: 18px;}
+
+.customer-stars-icon{text-align:center; 
+                     color: orange;}

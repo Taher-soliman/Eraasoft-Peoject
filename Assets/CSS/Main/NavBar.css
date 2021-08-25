@@ -9,9 +9,7 @@ font-face {
     /* Legacy iOS */
 }
 /* Start Variables */
-body{
-    background-color: #F7F9F9;
-}
+
 :root{
     --main-color:#ec1c23;
     --second-color:#0ca7aa;
@@ -22,6 +20,22 @@ body{
 
 
 /* Start Nav Bar */
+.navbar {
+  background-color: white;
+  box-shadow: 0 0 15px 5px rgb(1 1 1 / 10%);
+  z-index: 1000;
+  position: sticky !important;
+  top: 0;
+  left: 0;
+}
+.navbar .navbar-brand{
+  font-weight: bold;
+  font-size: 30px;
+}
+.navbar .navbar-brand .brand-icon{
+  font-size: 30px;
+  color: #e66363;
+}
 .navbar-nav .dropdown{
     position: relative;
 }
@@ -29,13 +43,12 @@ body{
     position: relative;
 }
 .navbar-nav .nav-item .btn{
-    background-color: var(--second-color);
+    background-color: #3aafd2;
     border: 1px solid var(--second-color);
     margin: 0 10px;
     border-radius: 40px;
     color: white;
     padding: 5px 20px;
-    
 }
 .navbar-nav .nav-item .signup-btn{
     color: var(--thrd-color);
@@ -45,8 +58,8 @@ body{
 }
 .navbar-nav .nav-item .btn:hover ,
 .navbar-nav .nav-item .signup-btn:hover{
-    background-color: #09787a;
-    border-color: #086f71;
+    background-color: #3ca7c7;
+    border-color: #34a3c5;
     color: white;
 }
 .nav-item .dropdown-list{
@@ -56,6 +69,7 @@ body{
     overflow: hidden;
     transition: all var(--transition) ease-in-out;
     padding: 10px;
+    background-color: white;
     z-index: 999;
     min-width: 200px;
     transition: .6s;
@@ -81,7 +95,7 @@ body{
 }
 .nav-item .dropdown-list li a:hover{
     margin-left: 10px;
-    color: var(--second-color);
+    color: #fe696a;
 }
 .nav-item .dropdown-list li:hover{
     background-color: unset;
