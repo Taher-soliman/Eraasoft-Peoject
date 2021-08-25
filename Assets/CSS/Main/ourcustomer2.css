@@ -6,10 +6,21 @@ body{margin: 0;}
 
 .our-customer-card{margin-top: 20px;}
 
-.cutomer-style{padding: 15px;}
+.our-customer-image-style{margin: auto;
+                        padding: 15px;}
 
-.customer-image{border-radius: 50%;
-                 opacity: 0.8;}
+.cutomer-style{
+               width:150px;
+               height: 150px; 
+               overflow: hidden;
+               border-radius: 50%;}
+               
+
+.customer-image{
+                 opacity: 0.8;
+                 width: 100%;
+                height: 100%;
+               transform: scaleX(1.2);}
 
 .customer-full-name{text-align: center;
                     font-size: 18px;}
