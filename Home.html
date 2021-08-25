@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Assets/CSS/Vendors/bootstrap.min.css">
     <link rel="stylesheet" href="Assets/CSS/Vendors/animate.min.css">
     <link rel="stylesheet" href="Assets/CSS/Vendors/all.min.css">
@@ -16,12 +19,14 @@
     <link rel="stylesheet" href="Assets/CSS/Main/StyleMai.css">
     <link rel="stylesheet" href="Assets/CSS/Main/NavBar.css">
     <link rel="stylesheet" href="Assets/CSS/Main/Footer.css">
+    <link rel="stylesheet" href="Assets/CSS/Main/Card-test.css">
     <title>Home Page</title>
 </head>
 
 <body>
     <!-- Start Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div id="to-up"></div>
+    <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container">
             <a class="navbar-brand" href="Home.html">Our Store</a>
             <div class="navbar__nav-btn d-flex">
@@ -110,13 +115,13 @@
                 <div class="slider-img ms-auto"><img src="Assets/images/Slider01.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-caption d-md-block  text-start">
-                    <h4 class="wow animate__fadeInRightBig " data-wow-duration="1s" data-wow-delay=".6s">Has just
+                    <h4 class="wow animate__fadeInRight " data-wow-duration="1s" data-wow-delay=".6s">Has just
                         arrived!
                     </h4>
-                    <h2 class="wow animate__fadeInRightBig " data-wow-duration="1.2s" data-wow-delay=".6s">Huge
+                    <h2 class="wow animate__fadeInRight " data-wow-duration="1.2s" data-wow-delay=".6s">Huge
                         Summer
                         Collection</h2>
-                    <p class="wow animate__fadeInRightBig " data-wow-duration="1.3s" data-wow-delay=".6s">Swimwear,
+                    <p class="wow animate__fadeInRight " data-wow-duration="1.3s" data-wow-delay=".6s">Swimwear,
                         Tops,
                         Shorts, Sunglasses & much more...</p>
                     <a href="#" class="slider-btn wow animate__bounceInUp" data-wow-duration="1s"
@@ -129,9 +134,9 @@
                 <div class="carousel-caption d-md-block  text-start">
                     <h4 class="wow animate__fadeInUp " data-wow-duration="1s" data-wow-delay=".6s">Hurry up!
                         Limited time offer.</h4>
-                    <h2 class="wow animate__fadeInUp " data-wow-duration="1s" data-wow-delay=".6s">Women
+                    <h2 class="wow animate__fadeInUp " data-wow-duration="1.2s" data-wow-delay=".6s">Women
                         Sportswear Sale</h2>
-                    <p class="wow animate__fadeInUp " data-wow-duration="1s" data-wow-delay=".6s">Sneakers,
+                    <p class="wow animate__fadeInUp " data-wow-duration="1.3s" data-wow-delay=".6s">Sneakers,
                         Keds, Sweatshirts, Hoodies & much more...</p>
                     <a href="#" class="slider-btn wow animate__bounceInUp" data-wow-duration="1s"
                         data-wow-delay=".6s">Shop Now <i class="fas fa-arrow-right slider-btn__icon"></i></a>
@@ -141,11 +146,11 @@
                 <div class="slider-img ms-auto"><img src="Assets/images/Slider03.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-caption d-md-block  text-start">
-                    <h4 class="wow animate__fadeInRightBig " data-wow-duration="1s" data-wow-delay=".6s">Complete
+                    <h4 class="wow animate__fadeInRight " data-wow-duration="1s" data-wow-delay=".6s">Complete
                         your look with</h4>
-                    <h2 class="wow animate__fadeInRightBig " data-wow-duration="1.2s" data-wow-delay=".6s">New Men's
+                    <h2 class="wow animate__fadeInRight " data-wow-duration="1.2s" data-wow-delay=".6s">New Men's
                         Accessories</h2>
-                    <p class="wow animate__fadeInRightBig " data-wow-duration="1.3s" data-wow-delay=".6s">Hats &
+                    <p class="wow animate__fadeInRight " data-wow-duration="1.3s" data-wow-delay=".6s">Hats &
                         Caps,
                         Sunglasses, Bags & much more...</p>
                     <a href="#" class="slider-btn wow animate__bounceInUp" data-wow-duration="1s"
@@ -166,104 +171,172 @@
     </div>
     <!-- End Slider -->
 
+    <!-- Start About Us Section -->
+    <div class="about-us" id="About-Us">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-12 col-md-6 about-us__img">
+                    <img src="Assets/images/about-us.jpg" alt="">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="about-us__content">
+                        <p>A Few Words About Our Store</p>
+                        <h2>ABOUT US</h2>
+                        <p class="brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente veritatis
+                            officiis et
+                            recusandae dicta earum, vitae voluptatum ipsum dolorem deserunt voluptas nihil molestiae sit
+                            ratione quia quod laudantium voluptate fuga.</p>
+                        <div class="d-flex seo">
+                            <div class="seo-img"><img src="Assets/images/SEO.jpg" alt=""></div>
+                            <p class="founder">
+                                <span>SEO,Founder</span> <br>
+                                <span>Jonathan Doe</span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About Us Section -->
+
+    <!-- Start Features -->
+    <div class="features" id="Features">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center header">OUR FEATURES</h2>
+                <div class="feature-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div><i class="fas fa-rocket icon"></i></div>
+                    <div class="text">
+                        <p>Fast and free delivery</p>
+                        <p>Free delivery for all orders over $200</p>
+                    </div>
+                </div>
+                <div class="feature-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div><i class="fas fa-hand-holding-usd icon"></i></div>
+                    <div class="text">
+                        <p>Money back guarantee</p>
+                        <p>We return money within 30 days</p>
+                    </div>
+                </div>
+                <div class="feature-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div><i class="fas fa-user-tie icon"></i></div>
+                    <div class="text">
+                        <p>24/7 customer support</p>
+                        <p>Friendly 24/7 customer support</p>
+                    </div>
+                </div>
+                <div class="feature-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div><i class="fas fa-credit-card icon"></i></div>
+                    <div class="text">
+                        <p>Secure online payment</p>
+                        <p>We possess SSL / Secure сertificate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Features -->
+
     <!-- Start Trending Products -->
     <section class="trending-products " id="our-product">
         <div class="container">
             <div class="row text-center">
                 <h2>Trending Products</h2>
-                <div class="col-12 col-sm-6  col-md-4 col-lg-3">
-                    <div class="card-me">
-                        <img src="Assets/images/watches/1.jpg" alt="">
-                        <div class="info-me">
-                            <h1>Watch</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
-                                minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
-                                exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
-                            <a href="#" class="btn btn-outline-success">See More</a>
+                <div class="col-12 col-sm-6  col-lg-4 text-start">
+                    <div class="card" style="width: 16rem;">
+                        <div class="card-img">
+                            <div class="new">NEW</div>
+                            <a href="#" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
+                            <div class="overlay"></div>
+                            <img src="Assets/images/watches/1.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="product-section">Men's Watch</p>
+                            <h5 class="card-title">Casual Watch</h5>
+                            <p class="card-text">$55.99</p>
+                            <a href="#" class="see-more-btn">SEE MORE</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6  col-md-4 col-lg-3">
-                    <div class="card-me">
-                        <img src="Assets/images/watches/2.jpg" alt="">
-                        <div class="info-me">
-                            <h1>Watch</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
-                                minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
-                                exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
-                            <a href="#" class="btn btn-outline-success">See More</a>
+                <div class="col-12 col-sm-6  col-lg-4 text-start">
+                    <div class="card" style="width: 16rem;">
+                        <div class="card-img">
+                            <div class="new">NEW</div>
+                            <a href="#" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
+                            <div class="overlay"></div>
+                            <img src="Assets/images/watches/1.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="product-section">Men's Watch</p>
+                            <h5 class="card-title">Casual Watch</h5>
+                            <p class="card-text">$55.99</p>
+                            <a href="#" class="see-more-btn">SEE MORE</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6  col-md-4 col-lg-3">
-                    <div class="card-me">
-                        <img src="Assets/images/watches/3.jpg" alt="">
-                        <div class="info-me">
-                            <h1>Watch</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
-                                minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
-                                exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
-                            <a href="#" class="btn btn-outline-success">See More</a>
+                <div class="col-12 col-sm-6  col-lg-4 text-start">
+                    <div class="card" style="width: 16rem;">
+                        <div class="card-img">
+                            <div class="new">NEW</div>
+                            <a href="#" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
+                            <div class="overlay"></div>
+                            <img src="Assets/images/watches/1.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="product-section">Men's Watch</p>
+                            <h5 class="card-title">Casual Watch</h5>
+                            <p class="card-text">$55.99</p>
+                            <a href="#" class="see-more-btn">SEE MORE</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6  col-md-4 col-lg-3">
-                    <div class="card-me">
-                        <img src="Assets/images/watches/4.jpg" alt="">
-                        <div class="info-me">
-                            <h1>Watch</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
-                                minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
-                                exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
-                            <a href="#" class="btn btn-outline-success">See More</a>
+                <div class="col-12 col-sm-6  col-lg-4 text-start">
+                    <div class="card" style="width: 16rem;">
+                        <div class="card-img">
+                            <div class="new">NEW</div>
+                            <a href="#" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
+                            <div class="overlay"></div>
+                            <img src="Assets/images/watches/1.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="product-section">Men's Watch</p>
+                            <h5 class="card-title">Casual Watch</h5>
+                            <p class="card-text">$55.99</p>
+                            <a href="#" class="see-more-btn">SEE MORE</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6  col-md-4 col-lg-3">
-                    <div class="card-me">
-                        <img src="Assets/images/makeup1.jpeg" alt="">
-                        <div class="info-me">
-                            <h1>makeup</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
-                                minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
-                                exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
-                            <a href="#" class="btn btn-outline-success">See More</a>
+                <div class="col-12 col-sm-6  col-lg-4 text-start">
+                    <div class="card" style="width: 16rem;">
+                        <div class="card-img">
+                            <div class="new">NEW</div>
+                            <a href="#" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
+                            <div class="overlay"></div>
+                            <img src="Assets/images/watches/1.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="product-section">Men's Watch</p>
+                            <h5 class="card-title">Casual Watch</h5>
+                            <p class="card-text">$55.99</p>
+                            <a href="#" class="see-more-btn">SEE MORE</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6  col-md-4 col-lg-3">
-                    <div class="card-me">
-                        <img src="Assets/images/makeup1.jpeg" alt="">
-                        <div class="info-me">
-                            <h1>makeup</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
-                                minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
-                                exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
-                            <a href="#" class="btn btn-outline-success">See More</a>
+                <div class="col-12 col-sm-6  col-lg-4 text-start">
+                    <div class="card" style="width: 16rem;">
+                        <div class="card-img">
+                            <div class="new">NEW</div>
+                            <a href="#" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
+                            <div class="overlay"></div>
+                            <img src="Assets/images/watches/1.jpg" class="card-img-top" alt="...">
                         </div>
-                    </div>
-                </div>
-                <div class="col-12  col-sm-6 col-md-4 col-lg-3">
-                    <div class="card-me">
-                        <img src="Assets/images/makeup1.jpeg" alt="">
-                        <div class="info-me">
-                            <h1>makeup</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
-                                minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
-                                exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
-                            <a href="#" class="btn btn-outline-success">See More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6  col-md-4 col-lg-3">
-                    <div class="card-me">
-                        <img src="Assets/images/makeup1.jpeg" alt="">
-                        <div class="info-me">
-                            <h1>makeup</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi optio quibusdam
-                                minima accusamus dolores maiores non placeat voluptate deserunt error sapiente
-                                exercitationem in, impedit eaque ipsa maxime illum laborum.</p>
-                            <a href="#" class="btn btn-outline-success">See More</a>
+                        <div class="card-body">
+                            <p class="product-section">Men's Watch</p>
+                            <h5 class="card-title">Casual Watch</h5>
+                            <p class="card-text">$55.99</p>
+                            <a href="#" class="see-more-btn">SEE MORE</a>
                         </div>
                     </div>
                 </div>
@@ -348,6 +421,12 @@
         </div>
     </div>
     <!-- End Footer -->
+
+    <!-- Start To Up Btn -->
+    <div class="to-up">
+        <a href="#to-up"><i class="fas fa-arrow-up icon"></i></a>
+    </div>
+    <!-- End To Up Btn -->
 
 
     <script src="Assets/Js/Vendors/bootstrap.bundle.min.js"></script>

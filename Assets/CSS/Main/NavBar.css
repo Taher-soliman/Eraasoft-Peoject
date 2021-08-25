@@ -9,9 +9,7 @@ font-face {
     /* Legacy iOS */
 }
 /* Start Variables */
-body{
-    background-color: #F7F9F9;
-}
+
 :root{
     --main-color:#ec1c23;
     --second-color:#0ca7aa;
@@ -22,6 +20,14 @@ body{
 
 
 /* Start Nav Bar */
+.navbar {
+  background-color: white;
+  box-shadow: 0 0 15px 5px rgb(1 1 1 / 10%);
+  z-index: 1000;
+  position: sticky !important;
+  top: 0;
+  left: 0;
+}
 .navbar-nav .dropdown{
     position: relative;
 }
