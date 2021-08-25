@@ -1,0 +1,18 @@
+body{margin: 0;}
+
+.our-customer-text{text-align: center;
+                  margin-top: 20px;
+                  margin-bottom: 40px;}
+
+.our-customer-card{margin-top: 20px;}
+
+.cutomer-style{padding: 15px;}
+
+.customer-image{border-radius: 50%;
+                 opacity: 0.8;}
+
+.customer-full-name{text-align: center;
+                    font-size: 18px;}
+
+.customer-stars-icon{text-align:center; 
+                     color: orange;}
