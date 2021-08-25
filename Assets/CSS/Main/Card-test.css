@@ -12,6 +12,8 @@
 }
 .row .card .card-img{
     position: relative;
+    overflow: hidden;
+    height: 50% !important;
 }
 .row .card .card-icon{
     position: absolute;
@@ -43,13 +45,12 @@
 .card .card-body p:nth-child(3){
     font-size: 18px;
     font-weight: bold;
-    color: #4e54c8 ;
 }
 .card .card-body .see-more-btn{
     display:inline-block ;
     text-decoration: none;
     padding: 5px 15px;
-    background-color:#4e54c8 ;
+    background-color:#3aafd2;
     color: white;
     border-radius: 5px;
     font-size: 18px;
@@ -62,6 +63,7 @@
     background-color: rgb(69, 216, 69);
     padding: 1px 8px;
     border-radius: 8px;
+    font-size: 16px;
     z-index: 10;
 }
 .row .card{

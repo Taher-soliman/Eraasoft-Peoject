@@ -28,6 +28,14 @@ font-face {
   top: 0;
   left: 0;
 }
+.navbar .navbar-brand{
+  font-weight: bold;
+  font-size: 30px;
+}
+.navbar .navbar-brand .brand-icon{
+  font-size: 30px;
+  color: #e66363;
+}
 .navbar-nav .dropdown{
     position: relative;
 }
@@ -35,13 +43,12 @@ font-face {
     position: relative;
 }
 .navbar-nav .nav-item .btn{
-    background-color: var(--second-color);
+    background-color: #3aafd2;
     border: 1px solid var(--second-color);
     margin: 0 10px;
     border-radius: 40px;
     color: white;
     padding: 5px 20px;
-    
 }
 .navbar-nav .nav-item .signup-btn{
     color: var(--thrd-color);
@@ -51,8 +58,8 @@ font-face {
 }
 .navbar-nav .nav-item .btn:hover ,
 .navbar-nav .nav-item .signup-btn:hover{
-    background-color: #09787a;
-    border-color: #086f71;
+    background-color: #3ca7c7;
+    border-color: #34a3c5;
     color: white;
 }
 .nav-item .dropdown-list{
@@ -62,6 +69,7 @@ font-face {
     overflow: hidden;
     transition: all var(--transition) ease-in-out;
     padding: 10px;
+    background-color: white;
     z-index: 999;
     min-width: 200px;
     transition: .6s;
@@ -87,7 +95,7 @@ font-face {
 }
 .nav-item .dropdown-list li a:hover{
     margin-left: 10px;
-    color: var(--second-color);
+    color: #fe696a;
 }
 .nav-item .dropdown-list li:hover{
     background-color: unset;

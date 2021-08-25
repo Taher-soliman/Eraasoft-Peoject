@@ -296,17 +296,20 @@ body{
 
 /* To UP */
 .to-up{
-    padding:15px 20px;
-    background-color: #2b344540;
     position: fixed;
     z-index: 999;
     bottom: 15px;
     right: 15px;
-    border-radius: 50%;
     text-align: center;
+}
+.to-up a{
+    display: inline-block;
+    padding:10px 15px;
+    background-color: #2b344540;
+    border-radius: 50%;
+
 }
 .to-up .icon{
     color: white;
-    line-height: 50px;
 }
 /* To UP */
