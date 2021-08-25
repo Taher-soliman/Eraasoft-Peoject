@@ -232,6 +232,9 @@ body{
     .trending-products{
         margin: 80px 0;
     }
+    .trending-products .row .card{
+        width: 100% !important;
+    }
     .trending-products h2{
         margin-bottom: 40px;
         color: #373f50;
