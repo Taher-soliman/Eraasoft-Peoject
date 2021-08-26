@@ -3,6 +3,7 @@
 }
 .card-me{
     width: 300px;
+    height: 100%;
     padding: 5px 2px;
     background-color: aliceblue;
     position: relative;
@@ -10,7 +11,7 @@
     align-items: flex-end;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease-in-out;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 .card-me:hover{
     transform: translateY(20px);
