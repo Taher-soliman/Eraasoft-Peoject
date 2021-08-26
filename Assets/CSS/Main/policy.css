@@ -2,12 +2,10 @@ body{margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
-.privacy-policy{margin-top: 40px;}
+.privacy-policy{margin-top: 40px;
+               margin-bottom: 50px}
 
-.privacy-policy-checkbox{margin-top: 20px;
-                         margin-bottom: 40px;
-                         font-size: 18px;
-                        }
+
 
 .privacy-policy-text{font-size: 16px;
                     line-height: 1.7;}
