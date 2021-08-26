@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/Vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/CSS/Vendors/all.min.css">
+    <link rel="stylesheet" href="Assets/CSS/Vendors/animate.min.css">
+    <link rel="stylesheet" href="Assets/CSS/Main/Mycards-Style.css">
+    <link rel="stylesheet" href="Assets/CSS/Main/Footer.css">
+    <link rel="stylesheet" href="Assets/CSS/Main/NavBar.css">
+    <link rel="stylesheet" href="Assets/CSS/Main/Home.css">
+    <title>cart</title>
+</head>
+<body>
+    <!-- Start Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Our Store</a>
+            <div class="navbar__nav-btn d-flex">
+                <ul class="navbar-nav nav-btns m-auto d-lg-none mb-2 mb-lg-0 ">
+                    <li class="nav-item ">
+                        <a href="Login.html" class="btn">Log In</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="Login.html" class="btn signup-btn">Sign Up</a>
+                    </li>
+
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="list-icon"></span>
+                <span class="list-icon"></span>
+                <span class="list-icon"></span>
+                <span class="list-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Pages</a>
+                        <ul class="dropdown-list bg-light">
+                            <li class="dropdown-item"><a class="dropdown-link" href="#our-product">Our Products</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#Offer">Our Offers</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#Features">Features</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#About-Us">About Us</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="contactus.html">Contact us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Categories</a>
+                        <ul class="dropdown-list bg-light">
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Fashion</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Elctronics</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Health & Beauty</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Shoping</a>
+                        <ul class="dropdown-list bg-light">
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">My Card</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">My Wishlist</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <form action="" class="navbar-search">
+                            <button> <i class="fas fa-search icon"></i></button>
+                            <input class="search-input" placeholder="Search">
+                        </form>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="navbar__nav-btn">
+                <ul class="navbar-nav nav-btns m-auto d-none d-lg-block mb-2 mb-lg-0 ">
+
+                    <li class=" nav-item ">
+                        <a href=" Login.html" class="btn">Log In</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="Login.html" class="btn signup-btn">Sign Up</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Nav Bar -->
+    <!-- start card  -->
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-4 col-xxl-3 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="card edit-card">
+                    <div class="card-img">
+                        <a href="#" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
+                        <div class="overlay"></div>
+                        <img src="Assets/images/watches/1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="product-section">Men's Watch</p>
+                        <h5 class="card-title">Casual Watch</h5>
+                        <p class="card-text">$55.99</p>
+                        <a href="#" class="see-more-btn">SEE MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-xxl-3 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="card edit-card">
+                    <div class="card-img">
+                        <a href="#" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
+                        <div class="overlay"></div>
+                        <img src="Assets/images/watches/1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="product-section">Men's Watch</p>
+                        <h5 class="card-title">Casual Watch</h5>
+                        <p class="card-text">$55.99</p>
+                        <a href="#" class="see-more-btn">SEE MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-xxl-3 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="card edit-card">
+                    <div class="card-img">
+                        <a href="#" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
+                        <div class="overlay"></div>
+                        <img src="Assets/images/watches/1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="product-section">Men's Watch</p>
+                        <h5 class="card-title">Casual Watch</h5>
+                        <p class="card-text">$55.99</p>
+                        <a href="#" class="see-more-btn">SEE MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="card edit-card">
+                    <div class="card-img">
+                        <a href="#" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
+                        <div class="overlay"></div>
+                        <img src="Assets/images/watches/1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="product-section">Men's Watch</p>
+                        <h5 class="card-title">Casual Watch</h5>
+                        <p class="card-text">$55.99</p>
+                        <a href="#" class="see-more-btn">SEE MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-xxl-3 col-lg-4 col-md-6 col-sm-12">
+                <div class="card edit-card">
+                    <div class="card-img">
+                        <a href="#" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
+                        <div class="overlay"></div>
+                        <img src="Assets/images/watches/1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="product-section">Men's Watch</p>
+                        <h5 class="card-title">Casual Watch</h5>
+                        <p class="card-text">$55.99</p>
+                        <a href="#" class="see-more-btn">SEE MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-xxl-3 col-lg-4 col-md-6 col-sm-12">
+                <div class="card edit-card">
+                    <div class="card-img">
+                        <a href="#" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
+                        <div class="overlay"></div>
+                        <img src="Assets/images/watches/1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="product-section">Men's Watch</p>
+                        <h5 class="card-title">Casual Watch</h5>
+                        <p class="card-text">$55.99</p>
+                        <a href="#" class="see-more-btn">SEE MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="container">
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Unit price</th>
+                <th scope="col">Total</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th ><div class="card mb-3" style="max-width: 800px;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="Assets/images/shoes/7.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">casual shoes</h5>
+                        <p class="card-text"><small class="text-muted"> Nado Casual Leather Slip-on Shoes For Men</small></p>
+                        <div class="row">
+                            <div class="col-6"><button type="button" class="btn btn-outline-success btn-lg"><i class="far fa-heart"></i> move to saved items</button></div>
+                            <div class="col-6"><button type="button" class="btn btn-outline-danger">Remove</button></div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </th>
+                <td><select class="form-select" aria-label="Default select example">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select></td>
+                <td>255 EGP</td>
+                <td>255 EGP</td>
+            </tr>
+            <tr>
+                <th ><div class="card mb-3" style="max-width: 800px;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="Assets/images/watches/4.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="row">
+                            <div class="col-6"><button type="button" class="btn btn-outline-success btn-lg"><i class="far fa-heart"></i> move to saved items</button></div>
+                            <div class="col-6"><button type="button" class="btn btn-outline-danger">Remove</button></div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </th>
+                <td><select class="form-select" aria-label="Default select example">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select></td>
+                <td>255 EGP</td>
+                <td>255 EGP</td>
+            </tr>
+            <tr>
+                <th ><div class="card mb-3" style="max-width: 800px;">
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="Assets/images/shoes/5.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">casual shoes</h5>
+                        <p class="card-text"><small class="text-muted">Nado Casual Leather Slip-on Shoes For Men</small></p>
+                        <div class="row">
+                            <div class="col-6"><button type="button" class="btn btn-outline-success btn-lg"><i class="far fa-heart"></i> move to saved items</button></div>
+                            <div class="col-6"><button type="button" class="btn btn-outline-danger">Remove</button></div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </th>
+                <td><select class="form-select" aria-label="Default select example">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select></td>
+                <td>255 EGP</td>
+                <td>255 EGP</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- end card  -->
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer__logo col-lg-4 col-md-6 col-12"><a class="h1" href="#">Our Store</a></div>
+                <div class="footer__contacts col-lg-4 col-md-6 col-12">
+                    <h2>CONTACTS</h2>
+                    <div class="d-flex ">
+                        <p><span><i class="fas fa-map-marker-alt"></i></span>
+                        <p><a href="#">523 Sylvan Ave, 5th Floor <br>
+                                Mountain View, CA 94041 USA</a></p>
+                        </p>
+                    </div>
+                    <p><span><i class="fas fa-phone-alt"></i></span>
+                        <a href="#">+1 (401) 123 456 78</a>
+                    </p>
+                    <p><span><i class="far fa-envelope"></i></span>
+                        <a href="#">ourstore@store.org</a>
+                    </p>
+                </div>
+                <div class="footer-icons col-lg-4 col-md-6 col-12">
+                    <div class="footer__social-icons">
+                        <h2>JOIN US ON</h2>
+                        <a href="#">
+                            <i class="fab fa-facebook-f footer__icon"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter footer__icon"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram footer__icon"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-google-plus-g footer__icon"></i>
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="footer__payment-icons">
+                        <h4>PAYMENT METHODS</h4>
+                        <a href="#">
+                            <i class="fab fa-cc-visa footer__icon"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-cc-paypal footer__icon"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-cc-mastercard footer__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+<script src="Assets/Js/Vendors/all.min.js"></script>
+<script src="Assets/Js/Vendors/all.min.js"></script>    
+</body>
+</html>
