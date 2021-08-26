@@ -5,28 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="Assets/CSS/Vendors/bootstrap.min.css">
-    <link rel="stylesheet" href="Assets/CSS/Vendors/animate.min.css">
-    <link rel="stylesheet" href="Assets/CSS/Vendors/all.min.css">
-    <link rel="stylesheet" href="Assets/CSS/Main/Home.css">
-    <link rel="stylesheet" href="Assets/CSS/Main/StyleMai.css">
-    <link rel="stylesheet" href="Assets/CSS/Main/NavBar.css">
-    <link rel="stylesheet" href="Assets/CSS/Main/Footer.css">
-    <link rel="stylesheet" href="Assets/CSS/Main/Card-test.css">
-    <link rel="stylesheet" href="Assets/CSS/Main/Mohamed-Marei.css">
-    <title>Categore</title>
+    <link rel='stylesheet' href="Assets/CSS/Vendors/animate.min.css">
+    <div class="wow animate__backInRight animate__delay-2s   --animate-duration: 2s;">
+        <link rel="stylesheet" href="Assets/CSS/Vendors/bootstrap.min.css">
+        <link rel="stylesheet" href="Assets/CSS/Vendors/all.min.css">
+        <link rel="stylesheet" href="Assets/CSS/Main/Footer.css">
+        <link rel="stylesheet" href="Assets/CSS/Main/NavBar.css">
+        <link rel="stylesheet" href="Assets/CSS/Main/maria.css">
+
+        <title>Product Info</title>
 </head>
 
 <body>
     <!-- Start Nav Bar -->
-    <div id="to-up"></div>
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="Home.html"><i class="fas fa-store brand-icon"></i> Our Store</a>
+            <a class="navbar-brand" href="#">Our Store</a>
             <div class="navbar__nav-btn d-flex">
                 <ul class="navbar-nav nav-btns m-auto d-lg-none mb-2 mb-lg-0 ">
                     <li class="nav-item ">
@@ -50,11 +44,11 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#">Pages</a>
-                        <ul class="dropdown-list">
+                        <ul class="dropdown-list bg-light">
                             <li class="dropdown-item"><a class="dropdown-link" href="#our-product">Our Products</a></li>
                             <li class="dropdown-item"><a class="dropdown-link" href="#Offer">Our Offers</a></li>
                             <li class="dropdown-item"><a class="dropdown-link" href="#Features">Features</a></li>
@@ -64,18 +58,16 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#">Categories</a>
-                        <ul class="dropdown-list">
-                            <li class="dropdown-item"><a class="dropdown-link" href="./Category.html">Fashion</a></li>
-                            <li class="dropdown-item"><a class="dropdown-link" href="./Category.html">Elctronics</a>
-                            </li>
-                            <li class="dropdown-item"><a class="dropdown-link" href="./Category.html">Health &
-                                    Beauty</a></li>
+                        <ul class="dropdown-list bg-light">
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Fashion</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Elctronics</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link" href="#">Health & Beauty</a></li>
 
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#">Shoping</a>
-                        <ul class="dropdown-list">
+                        <ul class="dropdown-list bg-light">
                             <li class="dropdown-item"><a class="dropdown-link" href="#">My Card</a></li>
                             <li class="dropdown-item"><a class="dropdown-link" href="#">My Wishlist</a></li>
 
@@ -106,79 +98,74 @@
         </div>
     </nav>
     <!-- End Nav Bar -->
+    <!-----------------single product  details--------------------->
+    <div class="container single-product">
+        <div class="row">
+            <div class="col-6  animate__animated animate__bounceInLeft">
+                <div class="single-img">
+                    <img src="Assets/images/img/product-1.jpg" width="100%" height="100%" id="productImg">
+                </div>
+                <div class="small-img-row ">
+                    <div class="small-img-col">
+                        <img src="Assets/images/img/buy-1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Assets/images/img/gallery-2.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Assets/images/img/gallery-3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Assets/images/img/gallery-4.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
 
-    <!-- Start Trending Products -->
-    <section class="trending-products " id="our-product">
-        <div class="container">
-            <div class="row text-center">
-                <h2>Dvices</h2>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-start">
-                    <div class="card">
-                        <div class="card-img">
-                            <a href="./Products.html" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
-                            <div class="overlay"></div>
-                            <img src="Assets/images/Category/phons.jpg" class="card-img-top" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <p class="product-section">Mobils</p>
-                            <a href="./Products.html" class="see-more-btn">View Products</a>
-                        </div>
-                    </div>
+
+            </div>
+            <div class="col-6  animate__animated animate__bounceInRight">
+                <h2>red printd T-Shirt by HRX</h2>
+                <h3>$50.00</h3>
+
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>LARGE</option>
+                    <option>MEDIUM</option>
+                    <option>SMALL</option>
+                </select>
+                <input type="number" value="1">
+
+                <h4>product details</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Sapiente fugit nostrum
+                    cupiditate, natus minus repellendus quidem?
+                    Debitis vel dolore earum fugiat. Molestias sit
+                    cupiditate sunt exercitationem, eum dolores quae dolorum.</p>
+                <div class="end">
+                    <a href="#"><i class="fas fa-heart like"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart like2"></i></a>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-start">
-                    <div class="card">
-                        <div class="card-img">
-                            <a href="./Products.html" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
-                            <div class="overlay"></div>
-                            <img src="Assets/images/Category/laptop.jpg" class="card-img-top" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <p class="product-section">Laptops</p>
-                            <a href="./Products.html" class="see-more-btn">View Products</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-start">
-                    <div class="card">
-                        <div class="card-img">
-                            <a href="./Products.html" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
-                            <div class="overlay"></div>
-<<<<<<< HEAD
-                            <img src="Assets/images/shoes/5.jpg" class="card-img-top" alt="...">
-=======
-                            <img src="Assets/images/Category/tv.png" class="card-img-top" alt="...">
->>>>>>> main
-                        </div>
-                        <div class="card-body">
-                            <p class="product-section">Smart TV</p>
-                            <a href="./Products.html" class="see-more-btn">View Products</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-start">
-                    <div class="card">
-                        <div class="card-img">
-                            <a href="./Products.html" class="card-icon"><i class="fas fa-arrow-circle-right"></i></a>
-                            <div class="overlay"></div>
-                            <img src="Assets/images/Category/tablet.jpg" class="card-img-top" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <p class="product-section">Tablets</p>
-                            <a href="./Products.html" class="see-more-btn">View Products</a>
-                        </div>
-                    </div>
-                </div>
+                <button type="button" class="btn btn-outline-danger">Add to cart</button>
+
             </div>
         </div>
-    </section>
-    <!-- End Trending Products -->
+    </div>
+   
 
 
-    <!-- Start Footer -->
+
+
+
+
+    <!-----------------footer--------------->>
+
+
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="footer__logo col-lg-4 col-md-6 col-12"><a class="h1" href="#">Our Store</a></div>
+                <div class="footer__logo col-lg-4 col-md-6 col-12"><a class="h1" href="#">Our Store</a>
+                </div>
                 <div class="footer__contacts col-lg-4 col-md-6 col-12">
                     <h2>CONTACTS</h2>
                     <div class="d-flex ">
@@ -227,13 +214,50 @@
             </div>
         </div>
     </div>
-    <!-- End Footer -->
-    <script src="Assets/Js/Vendors/bootstrap.bundle.min.js"></script>
+
+    <!--------------- js for product gallery--------------------->
+
+    <script>
+        var productImg = document.getElementById("productImg")
+        var smallImg = document.getElementsByClassName("small-img")
+
+        smallImg[0].onclick = function () {
+            productImg.src = smallImg[0].src;
+        }
+
+        smallImg[1].onclick = function () {
+            productImg.src = smallImg[1].src;
+        }
+
+        smallImg[2].onclick = function () {
+            productImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function () {
+            productImg.src = smallImg[3].src;
+        }
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script src="js/js.js"></script> -->
     <script src="Assets/Js/Vendors/wow.min.js"></script>
+    <script src="Assets/Js/Vendors/bootstrap.bundle.min.js"></script>
+    <script src="Assets/Js/Vendors/all.min.js"></script>
+    <script src="Assets/Js/Main/maria.js"></script>
+
     <script>
         new WOW().init();
     </script>
-    <script src="Assets/Js/Vendors/all.min.js"></script>
 </body>
 
 </html>

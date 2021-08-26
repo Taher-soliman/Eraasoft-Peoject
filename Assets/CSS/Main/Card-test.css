@@ -13,7 +13,19 @@
 .row .card .card-img{
     position: relative;
     overflow: hidden;
-    height: 50% !important;
+    height: 50% ;
+    height: 250px;
+    background-size: cover;
+}
+@media (max-width:676px){
+    .row .card .card-img{
+
+        height: 200px;
+    }
+}
+.row .card .card-img img{
+    width: 100%;
+    height: 100%;
 }
 .row .card .card-icon{
     position: absolute;
@@ -74,5 +86,5 @@
     box-shadow: 0 0 15px 5px rgb(1 1 1 / 10%);
 }
 .row .card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
