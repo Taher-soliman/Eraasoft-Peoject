@@ -1,5 +1,7 @@
 body{margin: 0;}
-
+.our-customer{
+    margin-bottom: 60px;
+}
 .container .row{
     justify-content: center !important;
 }
@@ -9,6 +11,7 @@ body{margin: 0;}
 
 .our-customer-card .card{
     border: none;
+    margin-top: 0;
 }
 .our-customer-card{
     margin-top: 20px;

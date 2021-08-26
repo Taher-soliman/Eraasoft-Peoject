@@ -50,6 +50,18 @@ font-face {
     color: white;
     padding: 5px 20px;
 }
+@media(max-width:676px){
+  .navbar-nav .nav-item .btn{
+    font-size: 18px;
+    padding: 3px 15px;
+  }
+  .navbar .navbar-brand{
+    font-size: 20px;
+  }
+  .navbar .navbar-brand .brand-icon{
+    font-size: 20px;
+  }
+}
 .navbar-nav .nav-item .signup-btn{
     color: var(--thrd-color);
     margin: 0;
