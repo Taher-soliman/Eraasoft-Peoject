@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,8 +13,9 @@
     <link rel="stylesheet" href="Assets/CSS/Main/NavBar.css">
     <link rel="stylesheet" href="Assets/CSS/Main/Home.css">
     <link rel="stylesheet" href="Assets/CSS/Main/MyCaed.css">
-    <title>cart</title>
+    <title>My Cart</title>
 </head>
+
 <body>
     <!-- Start Nav Bar -->
     <div id="to-up"></div>
@@ -73,8 +75,8 @@
                         <a class="nav-link" href="#">Shoping</a>
                         <ul class="dropdown-list">
                             <li class="dropdown-item"><a class="dropdown-link" href="MyCard.html">My Card</a></li>
-                            <li class="dropdown-item"><a class="dropdown-link" href="#">My Wishlist</a></li>
-
+                            <li class="dropdown-item"><a class="dropdown-link" href="mywishlist.html">My Wishlist</a>
+                            </li>
                         </ul>
                     </li>
                     <li>
@@ -101,7 +103,8 @@
             </div>
         </div>
     </nav>
-    
+    <!-- End Nav Bar -->
+
 
     <!-- End Nav Bar -->
     <!-- start card  -->
@@ -202,100 +205,115 @@
     <div class="container">
         <table class="table">
             <thead>
-            <tr>
-                <th scope="col">Item</th>
-                <th scope="col">Quantity</th>
-                <th scope="col">Unit price</th>
-                <th scope="col">Total</th>
-            </tr>
+                <tr>
+                    <th scope="col">Item</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Unit price</th>
+                    <th scope="col">Total</th>
+                </tr>
             </thead>
             <tbody>
-            <tr>
-                <th>
-                    <div class="row g-0 max-width">
-                        <div class="col-md-4">
-                            <img src="Assets/images/shoes/7.jpg" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                            <h5 class="card-title">casual shoes</h5>
-                            <p class="card-text"><small class="text-muted"> Nado Casual Leather Slip-on Shoes For Men</small></p>
-                                <div class="row">
-                                    <div class="col-6"><button type="button" class="btn btn-outline-success none-border" title="move to saved items"><i class="far fa-heart"></i></button></div>
-                                    <div class="col-6"><button type="button" class="btn btn-outline-danger none-border" title="Remove"><i class="fas fa-trash"></i></button></div>                                </div>
+                <tr>
+                    <th>
+                        <div class="row g-0 max-width">
+                            <div class="col-md-4">
+                                <img src="Assets/images/shoes/7.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">casual shoes</h5>
+                                    <p class="card-text"><small class="text-muted"> Nado Casual Leather Slip-on Shoes
+                                            For Men</small></p>
+                                    <div class="row">
+                                        <div class="col-6"><button type="button"
+                                                class="btn btn-outline-success none-border"
+                                                title="move to saved items"><i class="far fa-heart"></i></button></div>
+                                        <div class="col-6"><button type="button"
+                                                class="btn btn-outline-danger none-border" title="Remove"><i
+                                                    class="fas fa-trash"></i></button></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </th>
-                <td><select class="form-select" aria-label="Default select example">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select></td>
-                <td>255 EGP</td>
-                <td>255 EGP</td>
-            </tr>
-            <tr>
-                <th >
-                    <div class="row g-0 max-width">
-                    <div class="col-md-4">
-                        <img src="Assets/images/watches/4.jpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        <div class="row">
-                            <div class="col-6"><button type="button" class="btn btn-outline-success none-border" title="move to saved items"><i class="far fa-heart"></i></button></div>
-                            <div class="col-6"><button type="button" class="btn btn-outline-danger none-border" title="Remove"><i class="fas fa-trash"></i></button></div>
+                    </th>
+                    <td><select class="form-select" aria-label="Default select example">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select></td>
+                    <td>255 EGP</td>
+                    <td>255 EGP</td>
+                </tr>
+                <tr>
+                    <th>
+                        <div class="row g-0 max-width">
+                            <div class="col-md-4">
+                                <img src="Assets/images/watches/4.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <div class="row">
+                                        <div class="col-6"><button type="button"
+                                                class="btn btn-outline-success none-border"
+                                                title="move to saved items"><i class="far fa-heart"></i></button></div>
+                                        <div class="col-6"><button type="button"
+                                                class="btn btn-outline-danger none-border" title="Remove"><i
+                                                    class="fas fa-trash"></i></button></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
+                    </th>
+                    <td><select class="form-select" aria-label="Default select example">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select></td>
+                    <td>255 EGP</td>
+                    <td>255 EGP</td>
+                </tr>
+                <tr>
+                    <th>
+                        <div class="row g-0 max-width">
+                            <div class="col-md-4">
+                                <img src="Assets/images/shoes/5.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">casual shoes</h5>
+                                    <p class="card-text"><small class="text-muted">Nado Casual Leather Slip-on Shoes For
+                                            Men</small></p>
+                                    <div class="row">
+                                        <div class="col-6"><button type="button"
+                                                class="btn btn-outline-success none-border"
+                                                title="move to saved items"><i class="far fa-heart"></i></button></div>
+                                        <div class="col-6"><button type="button"
+                                                class="btn btn-outline-danger none-border" title="Remove"><i
+                                                    class="fas fa-trash"></i></button></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    </div>
-                
-                </th>
-                <td><select class="form-select" aria-label="Default select example">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select></td>
-                <td>255 EGP</td>
-                <td>255 EGP</td>
-            </tr>
-            <tr>
-                <th >
-                    <div class="row g-0 max-width">
-                    <div class="col-md-4">
-                        <img src="Assets/images/shoes/5.jpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                        <h5 class="card-title">casual shoes</h5>
-                        <p class="card-text"><small class="text-muted">Nado Casual Leather Slip-on Shoes For Men</small></p>
-                        <div class="row">
-                            <div class="col-6"><button type="button" class="btn btn-outline-success none-border" title="move to saved items"><i class="far fa-heart"></i></button></div>
-                            <div class="col-6"><button type="button" class="btn btn-outline-danger none-border" title="Remove"><i class="fas fa-trash"></i></button></div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                
-                </th>
-                <td><select class="form-select" aria-label="Default select example">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select></td>
-                <td>255 EGP</td>
-                <td>255 EGP</td>
-            </tr>
+
+                    </th>
+                    <td><select class="form-select" aria-label="Default select example">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select></td>
+                    <td>255 EGP</td>
+                    <td>255 EGP</td>
+                </tr>
             </tbody>
         </table>
         <div class="d-flex bd-highlight mb-3">
             <p class="p-2 bd-highlight">Total : 765</p>
         </div>
     </div>
-    
+
     <!-- end card  -->
     <!-- Start Footer -->
     <div class="footer">
@@ -351,7 +369,8 @@
         </div>
     </div>
     <!-- End Footer -->
-<script src="Assets/Js/Vendors/all.min.js"></script>
-<script src="Assets/Js/Vendors/all.min.js"></script>    
+    <script src="Assets/Js/Vendors/all.min.js"></script>
+    <script src="Assets/Js/Vendors/all.min.js"></script>
 </body>
+
 </html>
