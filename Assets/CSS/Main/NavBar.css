@@ -34,7 +34,7 @@ font-face {
 }
 .navbar .navbar-brand .brand-icon{
   font-size: 30px;
-  color: #e66363;
+  color: #3aafd2;
 }
 .navbar-nav .dropdown{
     position: relative;
@@ -74,6 +74,12 @@ font-face {
     border-color: #34a3c5;
     color: white;
 }
+.navbar-nav .nav-item .active{
+  color: #3aafd2 !important;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  color: #3aafd2 !important;
+}
 .nav-item .dropdown-list{
     position: absolute;
     transform: scale(0);
@@ -83,7 +89,7 @@ font-face {
     padding: 10px;
     background-color: white;
     z-index: 999;
-    min-width: 200px;
+    min-width: 250px;
     transition: .6s;
 }
 .navbar-nav .dropdown:hover .dropdown-list
@@ -107,7 +113,7 @@ font-face {
 }
 .nav-item .dropdown-list li a:hover{
     margin-left: 10px;
-    color: #fe696a;
+    color: #3ca7c7;
 }
 .nav-item .dropdown-list li:hover{
     background-color: unset;

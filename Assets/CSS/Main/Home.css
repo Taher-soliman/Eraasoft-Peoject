@@ -247,14 +247,14 @@ body{
         display: inline-block;
         margin-top: 30px;
         padding: 10px 30px;
-        color: #4e54c8;
-        border: 1px solid #4e54c8;
+        color: #3aafd2;
+        border: 1px solid #3aafd2;
         border-radius: 45px;
         transition: .2s;
     }
     .trending-products .more-products-btn:hover{
         color: white;
-        background-color:#4e54c8 ;
+        background-color:#3aafd2 ;
     }
 /* End Trending Products */
 
@@ -308,7 +308,7 @@ body{
 .to-up a{
     display: inline-block;
     padding:10px 15px;
-    background-color: #2b344540;
+    background-color: #3aafd2;
     border-radius: 50%;
 
 }
